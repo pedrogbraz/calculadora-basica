@@ -1,9 +1,8 @@
-<h1 align="left"> Dashboard </h1>
+<h1 align="left"> Calculadora Básica </h1>
 
 <p align="left">
-<b>Dashboard</b> que desenvolvi do zero usando apenas <b>HTML, CSS</b><br/>
-Apenas peguei ideias e desenvolvi um layout no figma, e depois refiz ele porém em HTML e CSS, ainda falta eu fazer a responsividade para mobiles.
-</p>
+<b>Calculadora</b> que desenvolvi do zero usando apenas <b>HTML, CSS e JavaScript</b><br/>
+Apenas e desenvolvi um layout no figma, e depois refiz ela porém em HTML e CSS e dei a interatividade para ela usando JavaScript.
 
 <br>
 
@@ -16,7 +15,7 @@ Apenas peguei ideias e desenvolvi um layout no figma, e depois refiz ele porém 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- Em breve - JavaScript
+- JavaScript
 - Git e Github
 - Figma
 
