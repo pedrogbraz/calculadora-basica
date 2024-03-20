@@ -7,7 +7,7 @@ Apenas e desenvolvi um layout no figma, e depois refiz ela porém em HTML e CSS 
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="assets/layout-figma.png" width="100%">
+  <img alt="projeto DevLinks" src="assets/layoutdofigma.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias Usadas
