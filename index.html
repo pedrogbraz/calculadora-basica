@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/regular.min.css" integrity="sha512-TzeemgHmrSO404wTLeBd76DmPp5TjWY/f2SyZC6/3LsutDYMVYfOx2uh894kr0j9UM6x39LFHKTeLn99iz378A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Calculadora <strong>Básica</strong></h1>
+            <p class="exps">Use as seguintes expressões:</p>
+            <p><strong>+ (Adição) - (Subtração) * (Multiplicação) / (Divisão)</strong></p>
+            
+        </div>
+        <form class="calculadora">
+            <input type="text" id="number1" placeholder="Digite o primero número">
+            <select id="opcoes" onchange="escolherOpcao()">
+                <option value="opcao1">Adição</option>
+                <option value="opcao2">Subtração</option>
+                <option value="opcao3">Multiplicação</option>
+                <option value="opcao4">Divisão</option>
+            </select>
+            <input type="text" id="number2" placeholder="Digite o segundo número">
+            <button id="button" onclick="calcular()">
+                Calcular
+            </button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
